@@ -12,7 +12,7 @@
 		2AFBC1E41ECB5BEF008EB837 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AFBC1E21ECB5BEF008EB837 /* Main.storyboard */; };
 		2AFBC1E61ECB5BEF008EB837 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AFBC1E51ECB5BEF008EB837 /* Assets.xcassets */; };
 		2AFBC1E91ECB5BEF008EB837 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AFBC1E71ECB5BEF008EB837 /* LaunchScreen.storyboard */; };
-		2AFBC1F21ECB5C53008EB837 /* FTProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFBC1F11ECB5C53008EB837 /* FTProgressHUD.swift */; };
+		2AFBC1F51ECB6481008EB837 /* FTProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFBC1F41ECB6481008EB837 /* FTProgressHUD.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		2AFBC1E51ECB5BEF008EB837 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2AFBC1E81ECB5BEF008EB837 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2AFBC1EA1ECB5BEF008EB837 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2AFBC1F11ECB5C53008EB837 /* FTProgressHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTProgressHUD.swift; sourceTree = "<group>"; };
+		2AFBC1F41ECB6481008EB837 /* FTProgressHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTProgressHUD.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 			children = (
 				2AFBC1DE1ECB5BEF008EB837 /* AppDelegate.swift */,
 				2AFBC1E01ECB5BEF008EB837 /* ViewController.swift */,
-				2AFBC1F01ECB5C3D008EB837 /* FTProgressHUD */,
+				2AFBC1F31ECB6481008EB837 /* FTProgressHUD */,
 				2AFBC1E21ECB5BEF008EB837 /* Main.storyboard */,
 				2AFBC1E51ECB5BEF008EB837 /* Assets.xcassets */,
 				2AFBC1E71ECB5BEF008EB837 /* LaunchScreen.storyboard */,
@@ -67,12 +67,13 @@
 			path = Demo;
 			sourceTree = "<group>";
 		};
-		2AFBC1F01ECB5C3D008EB837 /* FTProgressHUD */ = {
+		2AFBC1F31ECB6481008EB837 /* FTProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
-				2AFBC1F11ECB5C53008EB837 /* FTProgressHUD.swift */,
+				2AFBC1F41ECB6481008EB837 /* FTProgressHUD.swift */,
 			);
-			path = FTProgressHUD;
+			name = FTProgressHUD;
+			path = ../../FTProgressHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,7 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AFBC1F21ECB5C53008EB837 /* FTProgressHUD.swift in Sources */,
+				2AFBC1F51ECB6481008EB837 /* FTProgressHUD.swift in Sources */,
 				2AFBC1E11ECB5BEF008EB837 /* ViewController.swift in Sources */,
 				2AFBC1DF1ECB5BEF008EB837 /* AppDelegate.swift in Sources */,
 			);
@@ -312,6 +313,7 @@
 				2AFBC1EF1ECB5BEF008EB837 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
